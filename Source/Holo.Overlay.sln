@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holo.Overlay", "Holo.Overlay\Holo.Overlay.csproj", "{BC72BFFE-38D6-4F47-90C4-DEFB27BC523C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holo.Overlay.Sample", "Holo.Overlay.Sample\Holo.Overlay.Sample.csproj", "{A61C7DE9-9AC9-4F7A-A905-C4B9443143E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC72BFFE-38D6-4F47-90C4-DEFB27BC523C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC72BFFE-38D6-4F47-90C4-DEFB27BC523C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC72BFFE-38D6-4F47-90C4-DEFB27BC523C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC72BFFE-38D6-4F47-90C4-DEFB27BC523C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61C7DE9-9AC9-4F7A-A905-C4B9443143E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61C7DE9-9AC9-4F7A-A905-C4B9443143E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61C7DE9-9AC9-4F7A-A905-C4B9443143E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61C7DE9-9AC9-4F7A-A905-C4B9443143E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

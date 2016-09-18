@@ -1,0 +1,15 @@
+﻿<Application x:Class="Holo.Overlay.Sample.App"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:Context="clr-namespace:Holo.Overlay.Context;assembly=Holo.Overlay"
+            xmlns:Overlay="clr-namespace:Holo.Overlay.Controls;assembly=Holo.Overlay"
+            StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type Context:Waiting}">
+            <Overlay:Waiting/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type Context:MessageBox}">
+            <Overlay:MessageBox/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
